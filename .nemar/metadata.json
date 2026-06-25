@@ -1,28 +1,91 @@
 {
   "version": "2.0",
-  "dataset_id": "on004595",
-  "source": "openneuro",
-  "source_id": "ds004595",
+  "pipeline_stage": "enriched",
   "title": "EEG: RL Task (3-Armed Bandit) with alcohol cues in hazardous drinkers and ctls",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Ethan Campbell": {},
     "James F Cavanagh": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004595.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004595",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004595",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".R",
+    ".Rmd",
+    ".bmp",
+    ".csv",
+    ".db",
+    ".fdt",
+    ".jpeg",
+    ".jpg",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".set",
+    ".tsv",
+    ".txt",
+    ".xlsx"
+  ],
+  "description": "This dataset comprises electroencephalography (EEG) recordings from 53 community participants performing a three-armed bandit reinforcement learning task with alcohol and beverage cues. The study investigates electrophysiological markers of decision-making and cue-specific exploration in hazardous drinkers compared to controls. Participants viewed either alcohol-related or neutral beverage cues during the task. Data were collected between 2019 and 2021 at the University of New Mexico's Cognitive Research and Clinical Laboratory.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "reinforcement learning"
+    },
+    {
+      "term": "decision-making"
+    },
+    {
+      "term": "alcohol cues"
+    },
+    {
+      "term": "bandit task"
+    },
+    {
+      "term": "hazardous drinking"
+    },
+    {
+      "term": "exploration-exploitation"
+    },
+    {
+      "term": "cue-specific learning"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Institute on Alcohol Abuse and Alcoholism",
+      "award_number": ""
+    },
+    {
+      "funder_name": "National Institute on Alcohol Abuse and Alcoholism",
+      "award_number": "Not available"
+    }
+  ],
+  "source_hash": "af5ddc9153f63311553f31a68b8c5cefb7e2f1458a97deac64d3bb489182b7bc"
 }
