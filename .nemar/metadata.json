@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "EEG: RL Task (3-Armed Bandit) with alcohol cues in hazardous drinkers and ctls",
   "description": "This dataset comprises electroencephalography (EEG) recordings from 53 community participants performing a three-armed bandit reinforcement learning task with alcohol and beverage cues. The study compares neural responses between hazardous drinkers and controls, with data collected between 2019-2021 at the University of New Mexico's Clinical Research Center Lab. The dataset aims to identify electrophysiological markers of aberrant cue-specific exploration patterns associated with hazardous alcohol use.",
   "license": "CC0",
@@ -15,6 +15,9 @@
     },
     {
       "term": "reinforcement learning"
+    },
+    {
+      "term": "3-armed bandit"
     },
     {
       "term": "bandit task"
@@ -35,7 +38,7 @@
       "term": "cue reactivity"
     },
     {
-      "term": "exploration-exploitation"
+      "term": "exploration/exploitation"
     }
   ],
   "related_identifiers": [
